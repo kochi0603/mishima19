@@ -2,6 +2,7 @@
 - conda create -n py39sd2 python=3.9
 - conda activate py39sd2
 - conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+- pip install diffusers transformers ftfy accelerate
 
 # Stable-diffusion v2.1
   # huggingfaceにアカウントを作ってログインしてから、
