@@ -1,12 +1,20 @@
 # mishima19
+ - git clone https://github.com/gmichalo/UmlsBERT.git
+ - cd UmlsBERT
+ - conda create -n py37umlsbert python=3.7
+ - conda activate py37umlsbert 
+ - pip install -r requirements.txt
+
+
  - git clone https://github.com/cambridgeltl/sapbert.git
  - cd sapbert
  - conda create -n py38sapbert python=3.8
  - conda activate py38sapbert
  - pip install -r requirements.txt
  - conda install faiss-gpu -c pytorch
+ - conda install wandb
  - cd train
- - 
+ - ./pretrain.sh 0,1
 
 
 
