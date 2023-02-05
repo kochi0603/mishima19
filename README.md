@@ -1,4 +1,15 @@
 # mishima19
+ - git clone https://github.com/cambridgeltl/sapbert.git
+ - cd sapbert
+ - conda create -n py38sapbert python=3.8
+ - conda activate py38sapbert
+ - pip install -r requirements.txt
+ - conda install faiss-gpu -c pytorch
+ - cd train
+ - 
+
+
+
 - conda create -n py39sd2 python=3.9
 - conda activate py39sd2
 - conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
